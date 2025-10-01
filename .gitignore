@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+*.env
+
+# Data files (exclude large data files)
+data/raw/*.json
+data/processed/*.parquet
+database/*.db
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Power BI temp files
+*.tmp.pbix
+
+# Reports (keep structure, exclude content)
+data/analysis_reports/*.json
+data/validation_reports/*.json
+
+# Keep important directories but ignore content
+data/raw/.gitkeep
+data/processed/.gitkeep
+data/analysis_reports/.gitkeep
+data/validation_reports/.gitkeep
+database/.gitkeep
